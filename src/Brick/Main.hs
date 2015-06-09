@@ -14,6 +14,7 @@ module Brick.Main
   , supplyVtyEvents
   , withVty
   , runVty
+  , renderApp
 
   , neverShowCursor
   , showFirstCursor
