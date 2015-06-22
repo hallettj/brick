@@ -146,7 +146,7 @@ instance Default Result where
     def = Result V.emptyImage [] []
 
 instance Default RenderState where
-    def = RS M.empty
+    def = RS M.empty []
 
 getContext :: RenderM Context
 getContext = ask
